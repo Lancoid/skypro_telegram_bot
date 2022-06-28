@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/scripts/create_table__notification_task.sql
+  - include:
+      file: liquibase/scripts/create_table__scheduled_lock.sql
